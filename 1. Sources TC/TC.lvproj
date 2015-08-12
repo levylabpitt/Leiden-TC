@@ -317,7 +317,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D5163138-22BD-4B7B-B1D8-C2594A45A3EB}</Property>
-				<Property Name="Bld_version.build" Type="Int">8</Property>
+				<Property Name="Bld_version.build" Type="Int">9</Property>
 				<Property Name="Bld_version.major" Type="Int">4</Property>
 				<Property Name="Destination[0].destName" Type="Str">CF_Z_TC.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../2. Executable - CF_Z/CF_Z_TC.exe</Property>
@@ -333,7 +333,7 @@
 				<Property Name="DestinationCount" Type="Int">4</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[0].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{6F946CE9-AF60-4DB6-A470-670CC5E1F445}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{545BEC88-5CC8-4F06-B7DB-DD01F6293999}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/TC.vi</Property>
