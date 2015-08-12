@@ -1,5 +1,5 @@
 [ProjectWindow_Data]
-ProjectExplorer.ClassicPosition[String] = "153,55,844,449"
+ProjectExplorer.ClassicPosition[String] = "153,83,844,477"
 
 [AB_Cache_{AA6B92F6-48B2-4B89-AFBA-F18756C2628D}]
 Cache_Path[Path] Line0001 = "/C/Users/voodoo/AppData/Local/Temp/AB_Cache_{AA6B9"
@@ -32,4 +32,12 @@ Cache_Path[Path] Line0002 = "7B4-12FB-4F14-AD14-ABB37B8E18F5}.txt"
 [AB_Cache_{26FFDB08-8E6E-4DB2-BEB9-844ACFF7FF01}]
 Cache_Path[Path] Line0001 = "/C/Users/voodoo/AppData/Local/Temp/AB_Cache_{26FFD"
 Cache_Path[Path] Line0002 = "B08-8E6E-4DB2-BEB9-844ACFF7FF01}.txt"
+
+[AB_Cache_{1EF04FAA-7EAC-4A4B-8C6C-F2620B69B938}]
+Cache_Path[Path] Line0001 = "/C/Users/voodoo/AppData/Local/Temp/AB_Cache_{1EF04"
+Cache_Path[Path] Line0002 = "FAA-7EAC-4A4B-8C6C-F2620B69B938}.txt"
+
+[AB_Cache_{D5163138-22BD-4B7B-B1D8-C2594A45A3EB}]
+Cache_Path[Path] Line0001 = "/C/Users/voodoo/AppData/Local/Temp/AB_Cache_{D5163"
+Cache_Path[Path] Line0002 = "138-22BD-4B7B-B1D8-C2594A45A3EB}.txt"
 

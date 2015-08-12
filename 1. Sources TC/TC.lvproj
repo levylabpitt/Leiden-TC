@@ -302,6 +302,69 @@
 				<Property Name="TgtF_targetfileGUID" Type="Str">{822ABAD5-542D-4206-BF58-7DED7639A768}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">CF_TC.exe</Property>
 			</Item>
+			<Item Name="CF_Z_TC" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{54F783E0-528F-475E-819D-582349DA06F5}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{04AC3163-4191-47CB-A79A-D6002E236037}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{1EF04FAA-7EAC-4A4B-8C6C-F2620B69B938}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">CF_Z_TC</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../2. Executable - CF_Z</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{D5163138-22BD-4B7B-B1D8-C2594A45A3EB}</Property>
+				<Property Name="Bld_version.build" Type="Int">8</Property>
+				<Property Name="Bld_version.major" Type="Int">4</Property>
+				<Property Name="Destination[0].destName" Type="Str">CF_Z_TC.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../2. Executable - CF_Z/CF_Z_TC.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../2. Executable - CF_Z/data</Property>
+				<Property Name="Destination[2].destName" Type="Str">Lib</Property>
+				<Property Name="Destination[2].path" Type="Path">../2. Executable - CF_Z/lib/Lib.llb</Property>
+				<Property Name="Destination[2].type" Type="Str">LLB</Property>
+				<Property Name="Destination[3].destName" Type="Str">Calibrations</Property>
+				<Property Name="Destination[3].path" Type="Path">../2. Executable - CF_Z/Calibrations</Property>
+				<Property Name="DestinationCount" Type="Int">4</Property>
+				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[0].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{6F946CE9-AF60-4DB6-A470-670CC5E1F445}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/TC.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Calibrations</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">Container</Property>
+				<Property Name="Source[3].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[3].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">1</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Data</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[3].type" Type="Str">Container</Property>
+				<Property Name="Source[4].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/TC_to_DSC</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[4].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">5</Property>
+				<Property Name="TgtF_companyName" Type="Str">Leiden</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">TC</Property>
+				<Property Name="TgtF_internalName" Type="Str">TC</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2015</Property>
+				<Property Name="TgtF_productName" Type="Str">TC</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{EF21EAC2-0778-440B-9786-3B16AF225937}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">CF_Z_TC.exe</Property>
+			</Item>
 			<Item Name="MNK_TC" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{E37F52F6-79DB-4AF1-82E5-6A499639A9B2}</Property>
@@ -380,7 +443,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{26FFDB08-8E6E-4DB2-BEB9-844ACFF7FF01}</Property>
-				<Property Name="Bld_version.build" Type="Int">6</Property>
+				<Property Name="Bld_version.build" Type="Int">7</Property>
 				<Property Name="Bld_version.major" Type="Int">4</Property>
 				<Property Name="Destination[0].destName" Type="Str">MNK_Z_TC.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../2. Executable - MNK_Z/MNK_Z_TC.exe</Property>
