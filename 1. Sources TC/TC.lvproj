@@ -320,7 +320,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D5163138-22BD-4B7B-B1D8-C2594A45A3EB}</Property>
-				<Property Name="Bld_version.build" Type="Int">13</Property>
+				<Property Name="Bld_version.build" Type="Int">14</Property>
 				<Property Name="Bld_version.major" Type="Int">4</Property>
 				<Property Name="Destination[0].destName" Type="Str">CF_Z_TC.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../2. Executable - CF_Z/CF_Z_TC.exe</Property>
