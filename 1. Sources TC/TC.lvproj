@@ -26,10 +26,17 @@
 		</Item>
 		<Item Name="TC.vi" Type="VI" URL="../TC.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="user.lib" Type="Folder">
+				<Item Name="MGI Get Slope at Point.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/1D Array/MGI Get Slope at Point.vi"/>
+			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
+				<Item Name="Check Color Table Size.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Color Table Size.vi"/>
+				<Item Name="Check Data Size.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Data Size.vi"/>
+				<Item Name="Check File Permissions.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check File Permissions.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
+				<Item Name="Check Path.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Path.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Close File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Close File+.vi"/>
@@ -38,6 +45,7 @@
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
+				<Item Name="Directory of Top Level VI.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Directory of Top Level VI.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
@@ -55,17 +63,20 @@
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
+				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
 				<Item Name="Open Serial Driver.vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_sersup.llb/Open Serial Driver.vi"/>
+				<Item Name="Picture to Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Picture to Pixmap.vi"/>
 				<Item Name="Read File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read File+ (string).vi"/>
 				<Item Name="Read From Spreadsheet File (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (DBL).vi"/>
 				<Item Name="Read From Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (string).vi"/>
@@ -81,15 +92,19 @@
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="Unflatten Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pixmap.llb/Unflatten Pixmap.vi"/>
 				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="Write PNG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/png.llb/Write PNG File.vi"/>
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 				<Item Name="Write To Spreadsheet File (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (DBL).vi"/>
 				<Item Name="Write To Spreadsheet File (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (I64).vi"/>
 				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
 				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
 			</Item>
+			<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="../lib/Lib.llb/1D Array to String__ogtk.vi"/>
+			<Item Name="AD Conversion.vi" Type="VI" URL="../lib/Lib.llb/AD Conversion.vi"/>
 			<Item Name="Append Points to Data Array - AVS.vi" Type="VI" URL="../lib/Lib.llb/Append Points to Data Array - AVS.vi"/>
 			<Item Name="Append Points to Data Array - zBridge.vi" Type="VI" URL="../lib/Lib.llb/Append Points to Data Array - zBridge.vi"/>
 			<Item Name="Array of VData to VArray__ogtk.vi" Type="VI" URL="../lib/Lib.llb/Array of VData to VArray__ogtk.vi"/>
@@ -115,15 +130,25 @@
 			<Item Name="AVS47IB Stop.vi" Type="VI" URL="../lib/Lib.llb/AVS47IB Stop.vi"/>
 			<Item Name="AVS47IB Utility Default Instrument Setup.vi" Type="VI" URL="../lib/Lib.llb/AVS47IB Utility Default Instrument Setup.vi"/>
 			<Item Name="AVS47IB Wait for OPC/MAV/TMO.vi" Type="VI" URL="../lib/Lib.llb/AVS47IB Wait for OPC/MAV/TMO.vi"/>
+			<Item Name="AVS48 Single Scan.vi" Type="VI" URL="../lib/Lib.llb/AVS48 Single Scan.vi"/>
+			<Item Name="AVS48 Template.vi" Type="VI" URL="../lib/Lib.llb/AVS48 Template.vi"/>
 			<Item Name="AVS_configure_all.vi" Type="VI" URL="../lib/Lib.llb/AVS_configure_all.vi"/>
 			<Item Name="AVS_do_single_scan.vi" Type="VI" URL="../lib/Lib.llb/AVS_do_single_scan.vi"/>
 			<Item Name="AVS_read_all.vi" Type="VI" URL="../lib/Lib.llb/AVS_read_all.vi"/>
 			<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="../lib/Lib.llb/Build Error Cluster__ogtk.vi"/>
+			<Item Name="Build Path - Traditional__ogtk.vi" Type="VI" URL="../lib/Lib.llb/Build Path - Traditional__ogtk.vi"/>
 			<Item Name="CallExtVI.vi" Type="VI" URL="../lib/Lib.llb/CallExtVI.vi"/>
+			<Item Name="Close Picobus.vi" Type="VI" URL="../lib/Lib.llb/Close Picobus.vi"/>
 			<Item Name="Cluster to Array of VData__ogtk.vi" Type="VI" URL="../lib/Lib.llb/Cluster to Array of VData__ogtk.vi"/>
 			<Item Name="Combine Excitation&amp;Range.vi" Type="VI" URL="../lib/Lib.llb/Combine Excitation&amp;Range.vi"/>
+			<Item Name="Configure Hardware.vi" Type="VI" URL="../lib/Lib.llb/Configure Hardware.vi"/>
+			<Item Name="Configure Sensor Wiring of CHs.vi" Type="VI" URL="../lib/Lib.llb/Configure Sensor Wiring of CHs.vi"/>
+			<Item Name="Convert File Extension (Path)__ogtk.vi" Type="VI" URL="../lib/Lib.llb/Convert File Extension (Path)__ogtk.vi"/>
+			<Item Name="Convert File Extension (String)__ogtk.vi" Type="VI" URL="../lib/Lib.llb/Convert File Extension (String)__ogtk.vi"/>
 			<Item Name="Convert R-T - CMN.vi" Type="VI" URL="../lib/Lib.llb/Convert R-T - CMN.vi"/>
 			<Item Name="Convert R-T - Resistance.vi" Type="VI" URL="../lib/Lib.llb/Convert R-T - Resistance.vi"/>
+			<Item Name="Create Custom Error Handler.vi" Type="VI" URL="../lib/Lib.llb/Create Custom Error Handler.vi"/>
+			<Item Name="Create Dir if Non-Existant__ogtk.vi" Type="VI" URL="../lib/Lib.llb/Create Dir if Non-Existant__ogtk.vi"/>
 			<Item Name="CS Data Converter.vi" Type="VI" URL="../lib/Lib.llb/CS Data Converter.vi"/>
 			<Item Name="CS Emulation.lvclass" Type="LVClass" URL="../lib/Lib.llb/CS Emulation.lvclass"/>
 			<Item Name="CS OnOff &amp; Gated and Current &amp; Range.vi" Type="VI" URL="../lib/Lib.llb/CS OnOff &amp; Gated and Current &amp; Range.vi"/>
@@ -132,23 +157,29 @@
 			<Item Name="CS_set_channels.vi" Type="VI" URL="../lib/Lib.llb/CS_set_channels.vi"/>
 			<Item Name="Current VIs Parent Directory__ogtk.vi" Type="VI" URL="../lib/Lib.llb/Current VIs Parent Directory__ogtk.vi"/>
 			<Item Name="Current VIs Parents Ref__ogtk.vi" Type="VI" URL="../lib/Lib.llb/Current VIs Parents Ref__ogtk.vi"/>
+			<Item Name="Current VIs Reference__ogtk.vi" Type="VI" URL="../lib/Lib.llb/Current VIs Reference__ogtk.vi"/>
+			<Item Name="DA Conversion.vi" Type="VI" URL="../lib/Lib.llb/DA Conversion.vi"/>
 			<Item Name="DataReady.vi" Type="VI" URL="../lib/Lib.llb/DataReady.vi"/>
 			<Item Name="decodeconfig_b.vi" Type="VI" URL="../lib/Lib.llb/decodeconfig_b.vi"/>
 			<Item Name="decodereading_b.vi" Type="VI" URL="../lib/Lib.llb/decodereading_b.vi"/>
 			<Item Name="Delete Elements from 1D Array (DBL)__ogtk.vi" Type="VI" URL="../lib/Lib.llb/Delete Elements from 1D Array (DBL)__ogtk.vi"/>
 			<Item Name="Derivatives Pt by Pt.vi" Type="VI" URL="../lib/Lib.llb/Derivatives Pt by Pt.vi"/>
 			<Item Name="Edit Calibration Coefficients.vi" Type="VI" URL="../lib/Lib.llb/Edit Calibration Coefficients.vi"/>
+			<Item Name="Empty 2D Array (String)__ogtk.vi" Type="VI" URL="../lib/Lib.llb/Empty 2D Array (String)__ogtk.vi"/>
 			<Item Name="Encode Section and Key Names__ogtk.vi" Type="VI" URL="../lib/Lib.llb/Encode Section and Key Names__ogtk.vi"/>
+			<Item Name="File Exists__ogtk.vi" Type="VI" URL="../lib/Lib.llb/File Exists__ogtk.vi"/>
 			<Item Name="File Info__ogtk.vi" Type="VI" URL="../lib/Lib.llb/File Info__ogtk.vi"/>
 			<Item Name="Find Calibration Files by Name.vi" Type="VI" URL="../lib/Lib.llb/Find Calibration Files by Name.vi"/>
+			<Item Name="Find FPO by Name.vi" Type="VI" URL="../lib/Lib.llb/Find FPO by Name.vi"/>
+			<Item Name="FindAndWriteChangesToPCBs.vi" Type="VI" URL="../lib/Lib.llb/FindAndWriteChangesToPCBs.vi"/>
 			<Item Name="First Call Resetable.vi" Type="VI" URL="../lib/Lib.llb/First Call Resetable.vi"/>
-			<Item Name="Format log file header A.vi" Type="VI" URL="../lib/Lib.llb/Format log file header A.vi"/>
 			<Item Name="Format log file header Z.vi" Type="VI" URL="../lib/Lib.llb/Format log file header Z.vi"/>
 			<Item Name="Format Numeric Array__ogtk.vi" Type="VI" URL="../lib/Lib.llb/Format Numeric Array__ogtk.vi"/>
 			<Item Name="Format Variant Into String__ogtk.vi" Type="VI" URL="../lib/Lib.llb/Format Variant Into String__ogtk.vi"/>
 			<Item Name="GeneratePaths.vi" Type="VI" URL="../lib/Lib.llb/GeneratePaths.vi"/>
+			<Item Name="Get Array Element Default Data__ogtk.vi" Type="VI" URL="../lib/Lib.llb/Get Array Element Default Data__ogtk.vi"/>
 			<Item Name="Get Array Element TD__ogtk.vi" Type="VI" URL="../lib/Lib.llb/Get Array Element TD__ogtk.vi"/>
-			<Item Name="Get Array Element TDEnum__ogtk.vi" Type="VI" URL="../lib/Lib.llb/Get Array Element TDEnum__ogtk.vi"/>
+			<Item Name="Get Array Element TDEnum__ogtk.vi" Type="VI" URL="../lib/support/Get Array Element TDEnum__ogtk.vi"/>
 			<Item Name="Get Calibration Files List No Ext.vi" Type="VI" URL="../lib/Lib.llb/Get Calibration Files List No Ext.vi"/>
 			<Item Name="Get Data Name from TD__ogtk.vi" Type="VI" URL="../lib/Lib.llb/Get Data Name from TD__ogtk.vi"/>
 			<Item Name="Get Data Name__ogtk.vi" Type="VI" URL="../lib/Lib.llb/Get Data Name__ogtk.vi"/>
@@ -157,15 +188,23 @@
 			<Item Name="Get Header from TD__ogtk.vi" Type="VI" URL="../lib/Lib.llb/Get Header from TD__ogtk.vi"/>
 			<Item Name="Get Last PString__ogtk.vi" Type="VI" URL="../lib/Lib.llb/Get Last PString__ogtk.vi"/>
 			<Item Name="Get PString__ogtk.vi" Type="VI" URL="../lib/Lib.llb/Get PString__ogtk.vi"/>
+			<Item Name="Get Refnum Type Enum from Data__ogtk.vi" Type="VI" URL="../lib/Lib.llb/Get Refnum Type Enum from Data__ogtk.vi"/>
+			<Item Name="Get Refnum Type Enum from TD__ogtk.vi" Type="VI" URL="../lib/Lib.llb/Get Refnum Type Enum from TD__ogtk.vi"/>
 			<Item Name="Get Strings from Enum TD__ogtk.vi" Type="VI" URL="../lib/Lib.llb/Get Strings from Enum TD__ogtk.vi"/>
 			<Item Name="Get Strings from Enum__ogtk.vi" Type="VI" URL="../lib/Lib.llb/Get Strings from Enum__ogtk.vi"/>
-			<Item Name="Get TDEnum from Data__ogtk.vi" Type="VI" URL="../lib/Lib.llb/Get TDEnum from Data__ogtk.vi"/>
+			<Item Name="Get TDEnum from Data__ogtk.vi" Type="VI" URL="../lib/support/Get TDEnum from Data__ogtk.vi"/>
+			<Item Name="Get Waveform Type Enum from Data__ogtk.vi" Type="VI" URL="../lib/Lib.llb/Get Waveform Type Enum from Data__ogtk.vi"/>
+			<Item Name="Get Waveform Type Enum from TD__ogtk.vi" Type="VI" URL="../lib/Lib.llb/Get Waveform Type Enum from TD__ogtk.vi"/>
+			<Item Name="GetAL.vi" Type="VI" URL="../lib/Lib.llb/GetAL.vi"/>
 			<Item Name="GetAL_b.vi" Type="VI" URL="../lib/Lib.llb/GetAL_b.vi"/>
 			<Item Name="GetByteParam.vi" Type="VI" URL="../lib/Lib.llb/GetByteParam.vi"/>
 			<Item Name="GetDI_b.vi" Type="VI" URL="../lib/Lib.llb/GetDI_b.vi"/>
+			<Item Name="GetDI_CTS.vi" Type="VI" URL="../lib/Lib.llb/GetDI_CTS.vi"/>
 			<Item Name="GetExtVIStatus.vi" Type="VI" URL="../lib/Lib.llb/GetExtVIStatus.vi"/>
+			<Item Name="GetFrontPanelControls.vi" Type="VI" URL="../lib/Lib.llb/GetFrontPanelControls.vi"/>
 			<Item Name="If First Iteration.vi" Type="VI" URL="../lib/Lib.llb/If First Iteration.vi"/>
 			<Item Name="Improved Threshold Detector.71.vi" Type="VI" URL="../lib/Lib.llb/Improved Threshold Detector.71.vi"/>
+			<Item Name="InitPicobus.vi" Type="VI" URL="../lib/Lib.llb/InitPicobus.vi"/>
 			<Item Name="InitPort_b.vi" Type="VI" URL="../lib/Lib.llb/InitPort_b.vi"/>
 			<Item Name="IsDisabled.vi" Type="VI" URL="../lib/Lib.llb/IsDisabled.vi"/>
 			<Item Name="Load Calibration Coefficients from file.vi" Type="VI" URL="../lib/Lib.llb/Load Calibration Coefficients from file.vi"/>
@@ -174,20 +213,29 @@
 			<Item Name="Manage Data Arrays - AVS.vi" Type="VI" URL="../lib/Lib.llb/Manage Data Arrays - AVS.vi"/>
 			<Item Name="Manage Data Arrays - uPlots.vi" Type="VI" URL="../lib/Lib.llb/Manage Data Arrays - uPlots.vi"/>
 			<Item Name="Manage Data Arrays - zBridge.vi" Type="VI" URL="../lib/Lib.llb/Manage Data Arrays - zBridge.vi"/>
+			<Item Name="Measure.vi" Type="VI" URL="../lib/Lib.llb/Measure.vi"/>
 			<Item Name="MGI Make String Filesafe.vi" Type="VI" URL="../lib/Lib.llb/MGI Make String Filesafe.vi"/>
+			<Item Name="MGI Threshold 1D Array Extended.vi" Type="VI" URL="../lib/Lib.llb/MGI Threshold 1D Array Extended.vi"/>
 			<Item Name="OnTempStabilizedRef.vi" Type="VI" URL="../lib/Lib.llb/OnTempStabilizedRef.vi"/>
 			<Item Name="ParamMenu.vi" Type="VI" URL="../lib/Lib.llb/ParamMenu.vi"/>
 			<Item Name="Parse String with TDs__ogtk.vi" Type="VI" URL="../lib/Lib.llb/Parse String with TDs__ogtk.vi"/>
+			<Item Name="PB ReadWrite Data.vi" Type="VI" URL="../lib/Lib.llb/PB ReadWrite Data.vi"/>
+			<Item Name="PB Send Address.vi" Type="VI" URL="../lib/Lib.llb/PB Send Address.vi"/>
+			<Item Name="PB Strobe.vi" Type="VI" URL="../lib/Lib.llb/PB Strobe.vi"/>
+			<Item Name="PB Transaction.vi" Type="VI" URL="../lib/Lib.llb/PB Transaction.vi"/>
 			<Item Name="PbDelay_b.vi" Type="VI" URL="../lib/Lib.llb/PbDelay_b.vi"/>
 			<Item Name="PbStrobe_b.vi" Type="VI" URL="../lib/Lib.llb/PbStrobe_b.vi"/>
 			<Item Name="PCS.lvclass" Type="LVClass" URL="../lib/Lib.llb/PCS.lvclass"/>
 			<Item Name="PID control incremental.vi" Type="VI" URL="../lib/Lib.llb/PID control incremental.vi"/>
 			<Item Name="Print Channel Parameters.vi" Type="VI" URL="../lib/Lib.llb/Print Channel Parameters.vi"/>
+			<Item Name="Push2VI.vi" Type="VI" URL="../lib/Lib.llb/Push2VI.vi"/>
+			<Item Name="PushArray2VI.vi" Type="VI" URL="../lib/Lib.llb/PushArray2VI.vi"/>
 			<Item Name="QCS DBitIn.VI" Type="VI" URL="../lib/Lib.llb/QCS DBitIn.VI"/>
 			<Item Name="QCS DCFGBIT.VI" Type="VI" URL="../lib/Lib.llb/QCS DCFGBIT.VI"/>
 			<Item Name="QCS DCFGPORT.VI" Type="VI" URL="../lib/Lib.llb/QCS DCFGPORT.VI"/>
 			<Item Name="QCS GetBoard.VI" Type="VI" URL="../lib/Lib.llb/QCS GetBoard.VI"/>
 			<Item Name="QCS.lvclass" Type="LVClass" URL="../lib/Lib.llb/QCS.lvclass"/>
+			<Item Name="RangeExcitTable.vi" Type="VI" URL="../lib/Lib.llb/RangeExcitTable.vi"/>
 			<Item Name="Read Data from Single Channel.vi" Type="VI" URL="../lib/Lib.llb/Read Data from Single Channel.vi"/>
 			<Item Name="Read Key (Variant)__ogtk.vi" Type="VI" URL="../lib/Lib.llb/Read Key (Variant)__ogtk.vi"/>
 			<Item Name="Read Section Cluster__ogtk.vi" Type="VI" URL="../lib/Lib.llb/Read Section Cluster__ogtk.vi"/>
@@ -205,12 +253,22 @@
 			<Item Name="ScanStatus.vi" Type="VI" URL="../lib/Lib.llb/ScanStatus.vi"/>
 			<Item Name="Select Data Array.vi" Type="VI" URL="../lib/Lib.llb/Select Data Array.vi"/>
 			<Item Name="SelectSensor-txt no ext.vi" Type="VI" URL="../lib/Lib.llb/SelectSensor-txt no ext.vi"/>
+			<Item Name="Send Configurations.vi" Type="VI" URL="../lib/Lib.llb/Send Configurations.vi"/>
+			<Item Name="Send HW_A.vi" Type="VI" URL="../lib/Lib.llb/Send HW_A.vi"/>
+			<Item Name="Send HW_B.vi" Type="VI" URL="../lib/Lib.llb/Send HW_B.vi"/>
+			<Item Name="Send HW_C.vi" Type="VI" URL="../lib/Lib.llb/Send HW_C.vi"/>
+			<Item Name="Send HW_DE.vi" Type="VI" URL="../lib/Lib.llb/Send HW_DE.vi"/>
 			<Item Name="SendPbAddr_b.vi" Type="VI" URL="../lib/Lib.llb/SendPbAddr_b.vi"/>
 			<Item Name="Set Data Name__ogtk.vi" Type="VI" URL="../lib/Lib.llb/Set Data Name__ogtk.vi"/>
 			<Item Name="Set Enum String Value__ogtk.vi" Type="VI" URL="../lib/Lib.llb/Set Enum String Value__ogtk.vi"/>
 			<Item Name="SetByteParam.vi" Type="VI" URL="../lib/Lib.llb/SetByteParam.vi"/>
 			<Item Name="SetCP_b.vi" Type="VI" URL="../lib/Lib.llb/SetCP_b.vi"/>
+			<Item Name="SetCP_RTS.vi" Type="VI" URL="../lib/Lib.llb/SetCP_RTS.vi"/>
 			<Item Name="SetDC_b.vi" Type="VI" URL="../lib/Lib.llb/SetDC_b.vi"/>
+			<Item Name="SetDC_DTR.vi" Type="VI" URL="../lib/Lib.llb/SetDC_DTR.vi"/>
+			<Item Name="SetParFilePath.vi" Type="VI" URL="../lib/Lib.llb/SetParFilePath.vi"/>
+			<Item Name="Settling Delay.vi" Type="VI" URL="../lib/Lib.llb/Settling Delay.vi"/>
+			<Item Name="Show Info Window.vi" Type="VI" URL="../lib/Lib.llb/Show Info Window.vi"/>
 			<Item Name="Sort 1D Array (DBL)__ogtk.vi" Type="VI" URL="../lib/Lib.llb/Sort 1D Array (DBL)__ogtk.vi"/>
 			<Item Name="Sort 1D Array (I32)__ogtk.vi" Type="VI" URL="../lib/Lib.llb/Sort 1D Array (I32)__ogtk.vi"/>
 			<Item Name="Split Cluster TD__ogtk.vi" Type="VI" URL="../lib/Lib.llb/Split Cluster TD__ogtk.vi"/>
@@ -234,9 +292,12 @@
 			<Item Name="U16 Array to LV Unicode  String.vi" Type="VI" URL="../lib/Lib.llb/U16 Array to LV Unicode  String.vi"/>
 			<Item Name="Variant to Header Info__ogtk.vi" Type="VI" URL="../lib/Lib.llb/Variant to Header Info__ogtk.vi"/>
 			<Item Name="VISA to RS232 Port Nr.vi" Type="VI" URL="../lib/Lib.llb/VISA to RS232 Port Nr.vi"/>
+			<Item Name="Volts Output To Ohms.vi" Type="VI" URL="../lib/Lib.llb/Volts Output To Ohms.vi"/>
 			<Item Name="Write Key (Variant)__ogtk.vi" Type="VI" URL="../lib/Lib.llb/Write Key (Variant)__ogtk.vi"/>
 			<Item Name="Write Section Cluster__ogtk.vi" Type="VI" URL="../lib/Lib.llb/Write Section Cluster__ogtk.vi"/>
+			<Item Name="Write Spreadsheet String.vi" Type="VI" URL="../../../../Leiden-FP/trunk/1. Sources/Lib/Lib.llb/Write Spreadsheet String.vi"/>
 			<Item Name="Write to cal log file.vi" Type="VI" URL="../lib/Lib.llb/Write to cal log file.vi"/>
+			<Item Name="Write to DACs.vi" Type="VI" URL="../lib/Lib.llb/Write to DACs.vi"/>
 			<Item Name="Write To Spreadsheet File (string) w Error.vi" Type="VI" URL="../lib/Lib.llb/Write To Spreadsheet File (string) w Error.vi"/>
 			<Item Name="zBridge Format Status.vi" Type="VI" URL="../lib/Lib.llb/zBridge Format Status.vi"/>
 			<Item Name="zBridgeSettings_1page.vi" Type="VI" URL="../../../../../LC Software/TempControl/tt.llb/zBridgeSettings_1page.vi"/>

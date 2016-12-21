@@ -25,26 +25,25 @@
 			<Item Name="CS Type.ctl" Type="VI" URL="../CS.llb/CS Type.ctl"/>
 			<Item Name="CS Data.ctl" Type="VI" URL="../CS.llb/CS Data.ctl"/>
 			<Item Name="CS Data Converter.vi" Type="VI" URL="../cs.llb/CS Data Converter.vi"/>
-			<Item Name="TCS2CS Data.vi" Type="VI" URL="../CS.llb/TCS2CS Data.vi"/>
+			<Item Name="TCS2CS Data.vi" Type="VI" URL="../lib/Lib.llb/TCS2CS Data.vi"/>
 			<Item Name="CS Current &amp; Range.vi" Type="VI" URL="../cs.llb/CS Current &amp; Range.vi"/>
 			<Item Name="CS OnOff &amp; Gated.vi" Type="VI" URL="../cs.llb/CS OnOff &amp; Gated.vi"/>
 		</Item>
-		<Item Name="CS.lvclass" Type="LVClass" URL="../Lib/Lib.llb/CS.lvclass"/>
-		<Item Name="TCS.lvclass" Type="LVClass" URL="../Lib/Lib.llb/TCS.lvclass"/>
-		<Item Name="QCS.lvclass" Type="LVClass" URL="../Lib/Lib.llb/QCS.lvclass"/>
+		<Item Name="CS.lvclass" Type="LVClass" URL="../lib/Lib.llb/CS.lvclass"/>
+		<Item Name="TCS.lvclass" Type="LVClass" URL="../lib/Lib.llb/TCS.lvclass"/>
+		<Item Name="QCS.lvclass" Type="LVClass" URL="../lib/Lib.llb/QCS.lvclass"/>
 		<Item Name="TCS Test.vi" Type="VI" URL="../CS.llb/TCS Test.vi"/>
-		<Item Name="CS Emulation.lvclass" Type="LVClass" URL="../Lib/Lib.llb/CS Emulation.lvclass"/>
-		<Item Name="PCS.lvclass" Type="LVClass" URL="../Lib/Lib.llb/PCS.lvclass"/>
+		<Item Name="CS Emulation.lvclass" Type="LVClass" URL="../lib/Lib.llb/CS Emulation.lvclass"/>
+		<Item Name="PCS.lvclass" Type="LVClass" URL="../lib/Lib.llb/PCS.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
-				<Item Name="Open Serial Driver.vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_sersup.llb/Open Serial Driver.vi"/>
-				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="Open Serial Driver.vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_sersup.llb/Open Serial Driver.vi"/>
 				<Item Name="serpConfig.vi" Type="VI" URL="/&lt;vilib&gt;/Instr/serial.llb/serpConfig.vi"/>
+				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 			</Item>
 			<Item Name="VISA to RS232 Port Nr.vi" Type="VI" URL="../lib/Lib.llb/VISA to RS232 Port Nr.vi"/>
-			<Item Name="TCS2CS Data.vi" Type="VI" URL="../lib/Lib.llb/TCS2CS Data.vi"/>
 			<Item Name="RS232 Port N to VISA.vi" Type="VI" URL="../lib/Lib.llb/RS232 Port N to VISA.vi"/>
 			<Item Name="QCS DCFGPORT.VI" Type="VI" URL="../lib/Lib.llb/QCS DCFGPORT.VI"/>
 			<Item Name="QCS GetBoard.VI" Type="VI" URL="../lib/Lib.llb/QCS GetBoard.VI"/>
