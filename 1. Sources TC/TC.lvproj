@@ -24,14 +24,14 @@
 		<Item Name="TC.vi" Type="VI" URL="../TC.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
-				<Item Name="CF_TC_to_DSC.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Leiden Tools/TC_to_DSC/subVIs/CF_TC_to_DSC.vi"/>
-				<Item Name="CF_Z_Bridge_to_DSC.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Leiden Tools/TC_to_DSC/subVIs/CF_Z_Bridge_to_DSC.vi"/>
+				<Item Name="CF_TC_to_DSC.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Leiden Tools/TC_to_DSC_subVIs/CF_TC_to_DSC.vi"/>
+				<Item Name="CF_Z_Bridge_to_DSC.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Leiden Tools/TC_to_DSC_subVIs/CF_Z_Bridge_to_DSC.vi"/>
 				<Item Name="GetLocalComputerName.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Leiden Tools/subVIs/GetLocalComputerName.vi"/>
 				<Item Name="MGI Get Slope at Point.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/1D Array/MGI Get Slope at Point.vi"/>
-				<Item Name="MNK_TC_to_DSC.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Leiden Tools/TC_to_DSC/subVIs/MNK_TC_to_DSC.vi"/>
-				<Item Name="MNK_Z_Bridge_to_DSC.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Leiden Tools/TC_to_DSC/subVIs/MNK_Z_Bridge_to_DSC.vi"/>
+				<Item Name="MNK_TC_to_DSC.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Leiden Tools/TC_to_DSC_subVIs/MNK_TC_to_DSC.vi"/>
+				<Item Name="MNK_Z_Bridge_to_DSC.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Leiden Tools/TC_to_DSC_subVIs/MNK_Z_Bridge_to_DSC.vi"/>
 				<Item Name="ParseLeidenComputerNames.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Leiden Tools/subVIs/ParseLeidenComputerNames.vi"/>
-				<Item Name="TC_to_DSC.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Leiden Tools/TC_to_DSC/TC_to_DSC.vi"/>
+				<Item Name="TC_to_DSC.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Leiden Tools/TC_to_DSC.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
