@@ -5,6 +5,7 @@
 	<Property Name="varPersistentID:{89A62C94-9256-4F25-9396-8CF4ADDB1F55}" Type="Ref">/My Computer/1. Sources/Lib/Lib.llb/DR TempControl.lvlib/Resistances</Property>
 	<Property Name="varPersistentID:{B0941CAB-F80C-41DB-B714-B516F771B0D8}" Type="Ref">/My Computer/1. Sources/Lib/Lib.llb/DR TempControl.lvlib/Currents(Out)</Property>
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -14,6 +15,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="build support" Type="Folder">
+			<Item Name="PostBuildSupport (2013).lvclass" Type="LVClass" URL="../../build support/PostBuildSupport (saved for 2013)/PostBuildSupport (2013).lvclass"/>
+		</Item>
 		<Item Name="1. Sources" Type="Folder" URL="../1. Sources">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
@@ -53,7 +57,12 @@
 				<Item Name="TC_to_DSC.vi" Type="VI" URL="../Leiden to DSC/TC to DSC/TC_to_DSC.vi"/>
 			</Item>
 		</Item>
+		<Item Name="TC-4.59-backup.vi" Type="VI" URL="../TC-4.59-backup.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="user.lib" Type="Folder">
+				<Item Name="MGI Create Directory Chain Behavior Enum.ctl" Type="VI" URL="/&lt;userlib&gt;/_MGI/File/MGI Create Directory Chain Behavior Enum.ctl"/>
+				<Item Name="MGI Create Directory Chain.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/File/MGI Create Directory Chain.vi"/>
+			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
@@ -202,64 +211,149 @@
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="TC" Type="EXE">
+			<Item Name="TC Application" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{1F639F27-F511-41FC-B35D-77F984712F19}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{40AF32FC-1188-43A5-8302-1FE5A9544D3C}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{AA6B92F6-48B2-4B89-AFBA-F18756C2628D}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">TC</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">TC Application</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../2. Executable</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/Application</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A6A2C695-7CBA-4576-99B6-D9E6B8888B88}</Property>
 				<Property Name="Bld_version.build" Type="Int">7</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">4</Property>
+				<Property Name="Bld_version.minor" Type="Int">59</Property>
 				<Property Name="Destination[0].destName" Type="Str">TC.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../2. Executable/NI_AB_PROJECTNAME.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/Application/TC Application.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../2. Executable/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/Application/data</Property>
 				<Property Name="Destination[2].destName" Type="Str">Lib</Property>
-				<Property Name="Destination[2].path" Type="Path">../2. Executable/lib/Lib.llb</Property>
+				<Property Name="Destination[2].path" Type="Path">../builds/Application/lib/Lib.llb</Property>
 				<Property Name="Destination[2].type" Type="Str">LLB</Property>
 				<Property Name="Destination[3].destName" Type="Str">Calibrations</Property>
-				<Property Name="Destination[3].path" Type="Path">../2. Executable/Calibrations</Property>
+				<Property Name="Destination[3].path" Type="Path">../builds/Application/Calibrations</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
-				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/1. Sources TC/TC.ico</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/1. Sources/TC.ico</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[0].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{991093B3-2B25-41C9-99A5-B60C4F6B1C85}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{C5F2A9C7-8C51-4113-A765-14A6AC0170FF}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/1. Sources TC/TC.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/1. Sources/TC.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="Source[2].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">3</Property>
-				<Property Name="Source[2].itemID" Type="Ref"></Property>
-				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[2].type" Type="Str">Container</Property>
-				<Property Name="Source[3].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[3].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[3].destinationIndex" Type="Int">1</Property>
-				<Property Name="Source[3].itemID" Type="Ref"></Property>
-				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[3].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">4</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_companyName" Type="Str">Microsoft</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">TC</Property>
-				<Property Name="TgtF_internalName" Type="Str">TC</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2015 Microsoft</Property>
-				<Property Name="TgtF_productName" Type="Str">TC</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">TC Application</Property>
+				<Property Name="TgtF_internalName" Type="Str">TC Application</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2020 Leiden Cryogenics</Property>
+				<Property Name="TgtF_productName" Type="Str">TC Application</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{ADAD6F79-ADCC-42F0-9325-9AFB678E107D}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">TC.exe</Property>
+			</Item>
+			<Item Name="TC Installer" Type="Installer">
+				<Property Name="Destination[0].name" Type="Str">Leiden Cryogenics</Property>
+				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
+				<Property Name="Destination[0].tag" Type="Str">{35D93E98-0676-4823-9B7F-C727672A9ECD}</Property>
+				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
+				<Property Name="Destination[1].name" Type="Str">TC</Property>
+				<Property Name="Destination[1].parent" Type="Str">{35D93E98-0676-4823-9B7F-C727672A9ECD}</Property>
+				<Property Name="Destination[1].tag" Type="Str">{4F9652CA-15FC-4720-AF9D-CF67C2FF709C}</Property>
+				<Property Name="Destination[1].type" Type="Str">userFolder</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="DistPart[0].flavorID" Type="Str">DefaultFull</Property>
+				<Property Name="DistPart[0].productID" Type="Str">{FEA545A1-9CAA-415E-81D8-49951ED44F22}</Property>
+				<Property Name="DistPart[0].productName" Type="Str">NI Distributed System Manager 2013</Property>
+				<Property Name="DistPart[0].upgradeCode" Type="Str">{3DB93F85-A052-4CC0-A7CA-BF8269170235}</Property>
+				<Property Name="DistPart[1].flavorID" Type="Str">DefaultFull</Property>
+				<Property Name="DistPart[1].productID" Type="Str">{33C1B63D-5B8F-4932-8441-B87E8C72021F}</Property>
+				<Property Name="DistPart[1].productName" Type="Str">NI Variable Engine 2018</Property>
+				<Property Name="DistPart[1].upgradeCode" Type="Str">{EB7A3C81-1C0F-4495-8CE5-0A427E4E6285}</Property>
+				<Property Name="DistPart[2].flavorID" Type="Str">_full_</Property>
+				<Property Name="DistPart[2].productID" Type="Str">{6B2D1DEB-CFE9-43D9-B325-AB607C62A29C}</Property>
+				<Property Name="DistPart[2].productName" Type="Str">NI-488.2 Runtime 17.0</Property>
+				<Property Name="DistPart[2].upgradeCode" Type="Str">{357F6618-C660-41A2-A185-5578CC876D1D}</Property>
+				<Property Name="DistPart[3].flavorID" Type="Str">_deployment_</Property>
+				<Property Name="DistPart[3].productID" Type="Str">{F9B5B433-547E-4A74-AFE6-91C16787824E}</Property>
+				<Property Name="DistPart[3].productName" Type="Str">NI-VISA Runtime 17.0</Property>
+				<Property Name="DistPart[3].upgradeCode" Type="Str">{8627993A-3F66-483C-A562-0D3BA3F267B1}</Property>
+				<Property Name="DistPart[4].flavorID" Type="Str">DefaultFull</Property>
+				<Property Name="DistPart[4].productID" Type="Str">{E7F44619-A12B-407C-A4AE-9E85280EF3AB}</Property>
+				<Property Name="DistPart[4].productName" Type="Str">NI LabVIEW Run-Time Engine 2013 SP1 f6</Property>
+				<Property Name="DistPart[4].SoftDep[0].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[4].SoftDep[0].productName" Type="Str">NI LabVIEW 2013 SP1 Run-Time Engine Non-English Support.</Property>
+				<Property Name="DistPart[4].SoftDep[0].upgradeCode" Type="Str">{DDE96050-C9ED-4EAC-B310-5EA217776FEA}</Property>
+				<Property Name="DistPart[4].SoftDep[1].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[4].SoftDep[1].productName" Type="Str">NI ActiveX Container</Property>
+				<Property Name="DistPart[4].SoftDep[1].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
+				<Property Name="DistPart[4].SoftDep[10].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[4].SoftDep[10].productName" Type="Str">NI Error Reporting 2013</Property>
+				<Property Name="DistPart[4].SoftDep[10].upgradeCode" Type="Str">{42E818C6-2B08-4DE7-BD91-B0FD704C119A}</Property>
+				<Property Name="DistPart[4].SoftDep[2].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[4].SoftDep[2].productName" Type="Str">NI System Web Server 13.0</Property>
+				<Property Name="DistPart[4].SoftDep[2].upgradeCode" Type="Str">{FCF64B73-B7D4-4971-8F11-24BAF7CC3E6C}</Property>
+				<Property Name="DistPart[4].SoftDep[3].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[4].SoftDep[3].productName" Type="Str">Math Kernel Libraries</Property>
+				<Property Name="DistPart[4].SoftDep[3].upgradeCode" Type="Str">{EA05DCF9-F239-4387-8904-04D678031F6B}</Property>
+				<Property Name="DistPart[4].SoftDep[4].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[4].SoftDep[4].productName" Type="Str">NI Logos 5.5</Property>
+				<Property Name="DistPart[4].SoftDep[4].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
+				<Property Name="DistPart[4].SoftDep[5].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[4].SoftDep[5].productName" Type="Str">NI TDM Streaming 2.4</Property>
+				<Property Name="DistPart[4].SoftDep[5].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
+				<Property Name="DistPart[4].SoftDep[6].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[4].SoftDep[6].productName" Type="Str">NI LabVIEW 2013 Web Server</Property>
+				<Property Name="DistPart[4].SoftDep[6].upgradeCode" Type="Str">{A66A5CC8-EEB5-4982-8B92-F591AF36060E}</Property>
+				<Property Name="DistPart[4].SoftDep[7].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[4].SoftDep[7].productName" Type="Str">NI LabVIEW 2013 Real-Time NBFifo</Property>
+				<Property Name="DistPart[4].SoftDep[7].upgradeCode" Type="Str">{76E4763E-0DC4-4195-BC50-084193FFA84B}</Property>
+				<Property Name="DistPart[4].SoftDep[8].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[4].SoftDep[8].productName" Type="Str">NI VC2008MSMs</Property>
+				<Property Name="DistPart[4].SoftDep[8].upgradeCode" Type="Str">{FDA3F8BB-BAA9-45D7-8DC7-22E1F5C76315}</Property>
+				<Property Name="DistPart[4].SoftDep[9].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[4].SoftDep[9].productName" Type="Str">NI VC2010MSMs</Property>
+				<Property Name="DistPart[4].SoftDep[9].upgradeCode" Type="Str">{EFBA6F9E-F934-4BD7-AC51-60CCA480489C}</Property>
+				<Property Name="DistPart[4].SoftDepCount" Type="Int">11</Property>
+				<Property Name="DistPart[4].upgradeCode" Type="Str">{A661D981-0A3B-4081-A5B5-1FAA03CFAF84}</Property>
+				<Property Name="DistPartCount" Type="Int">5</Property>
+				<Property Name="INST_author" Type="Str">University of Pittsburgh</Property>
+				<Property Name="INST_buildLocation" Type="Path">../builds/Installer/TC Installer</Property>
+				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
+				<Property Name="INST_buildSpecName" Type="Str">TC Installer</Property>
+				<Property Name="INST_defaultDir" Type="Str">{4F9652CA-15FC-4720-AF9D-CF67C2FF709C}</Property>
+				<Property Name="INST_productName" Type="Str">TC</Property>
+				<Property Name="INST_productVersion" Type="Str">4.59.0</Property>
+				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
+				<Property Name="InstSpecVersion" Type="Str">13008051</Property>
+				<Property Name="MSI_arpCompany" Type="Str">Leiden Cryogenics</Property>
+				<Property Name="MSI_autoselectDrivers" Type="Bool">true</Property>
+				<Property Name="MSI_distID" Type="Str">{FB96AA6E-7250-48B3-933E-7536D664C7E1}</Property>
+				<Property Name="MSI_osCheck" Type="Int">0</Property>
+				<Property Name="MSI_upgradeCode" Type="Str">{C4A116AB-E9BF-4A50-A13C-2F03518B3382}</Property>
+				<Property Name="RegDest[0].dirName" Type="Str">Software</Property>
+				<Property Name="RegDest[0].dirTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
+				<Property Name="RegDest[0].parentTag" Type="Str">2</Property>
+				<Property Name="RegDestCount" Type="Int">1</Property>
+				<Property Name="Source[0].dest" Type="Str">{4F9652CA-15FC-4720-AF9D-CF67C2FF709C}</Property>
+				<Property Name="Source[0].File[0].dest" Type="Str">{4F9652CA-15FC-4720-AF9D-CF67C2FF709C}</Property>
+				<Property Name="Source[0].File[0].name" Type="Str">TC.exe</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">TC</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">TC</Property>
+				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">1</Property>
+				<Property Name="Source[0].File[0].tag" Type="Str">{ADAD6F79-ADCC-42F0-9325-9AFB678E107D}</Property>
+				<Property Name="Source[0].FileCount" Type="Int">1</Property>
+				<Property Name="Source[0].name" Type="Str">TC Application</Property>
+				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/TC Application</Property>
+				<Property Name="Source[0].type" Type="Str">EXE</Property>
+				<Property Name="SourceCount" Type="Int">1</Property>
 			</Item>
 		</Item>
 	</Item>
