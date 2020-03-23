@@ -17,6 +17,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="build support" Type="Folder">
 			<Item Name="PostBuildSupport (2013).lvclass" Type="LVClass" URL="../../build support/PostBuildSupport (saved for 2013)/PostBuildSupport (2013).lvclass"/>
+			<Item Name="TC Post Build.vi" Type="VI" URL="../../build support/TC Post Build.vi"/>
 		</Item>
 		<Item Name="1. Sources" Type="Folder" URL="../1. Sources">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
@@ -228,6 +229,7 @@
 				<Property Name="Bld_version.build" Type="Int">7</Property>
 				<Property Name="Bld_version.major" Type="Int">4</Property>
 				<Property Name="Bld_version.minor" Type="Int">59</Property>
+				<Property Name="Bld_version.patch" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">TC.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/Application/TC Application.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -243,7 +245,7 @@
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/1. Sources/TC.ico</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[0].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{C5F2A9C7-8C51-4113-A765-14A6AC0170FF}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D74671F1-AE4D-4B33-9983-CC3180324C18}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/1. Sources/TC.vi</Property>
@@ -329,7 +331,7 @@
 				<Property Name="INST_buildSpecName" Type="Str">TC Installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{4F9652CA-15FC-4720-AF9D-CF67C2FF709C}</Property>
 				<Property Name="INST_productName" Type="Str">TC</Property>
-				<Property Name="INST_productVersion" Type="Str">4.59.0</Property>
+				<Property Name="INST_productVersion" Type="Str">4.59.1</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">13008051</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Leiden Cryogenics</Property>
