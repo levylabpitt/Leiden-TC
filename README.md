@@ -12,8 +12,7 @@ See documentation _here_ (TC.pdf?)
 
 ## Contributing
 
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-Please make sure to update tests as appropriate.
+Please see [here](https://github.com/levylabpitt/Leiden-TC/blob/master/docs/CONTRIBUTING.md)
 
 ## Authors
 - Sasha Usenko (sasha@leidencryogenics.com) is the author of the TC project
