@@ -12,33 +12,33 @@ Thanks for taking the time to contribute!
 ### Project structure
 
 ```
-Leiden-FP
+Leiden-TC
 |
 +---README.md
 |
 +---LICENSE
 |
-+---FrontPanel.lvproj           #LabVIEW project containing with Application and Installer Build Specifications
++---TC.lvproj           #LabVIEW project containing with Application and Installer Build Specifications
 |
 +---\src\
 |   |
 │   +---\1. Sources\            #Replace this folder when Leiden Cryogenics updates their source code
 |   |   |
-|   |   +---FrontPanel.vi
+|   |   +---TC.vi
 |   |   
 │   +---\Write to DSC\          #This folder contains utilities for writing data to DSC database
 |       |
-│       +---\FP to DSC\     
+│       +---\TC to DSC\     
 |           |
-|           +---FP_to_DSC.vi\   #This is file you will insert into FrontPanel.vi
+|           +---TC_to_DSC.vi\   #This is file you will insert into TC.vi
 | 
-+---\backups\                   #Put backups of FrontPanel.vi here
++---\backups\                   #Put backups of TC.vi here
 |   |
-|   +---FrontPanel-X-backup.vi  #Backup of version "X"
+|   +---TC-X-backup.vi  #Backup of version "X"
 |
 +---\build support\             
 |   |
-|   +---FP Post Build.vi        #Run to turn create a one file installer
+|   +---TC Post Build.vi        #Run to turn create a one file installer
 |
 +---\builds\Latest              #Find the latest single file installer files here
 
@@ -51,18 +51,31 @@ Leiden-FP
 2. Unzip source file and find the "1. Sources" folder
 3. *Replace* the "1. Sources" folder in "\Project\src\"
 
-![](images/FP-Project-Explorer-0.png)
+![](images/TC-Copy-1-Sources.gif)
 
-4. Open a backup copy of FrontPanel-X-backup.vi to see how to modify the new FrontPanel.vi (See screenshots below)
+4. Open a backup copy of TC-X-backup.vi to see how to modify the new FrontPanel.vi (See screenshots below)
 
-![](images/FP-Project-Explorer-1.png)
-![](images/FP-Block-Diagram.png)
+![](images/TC-Project-Explorer-1.png)
+
+![](images/TC-Block-Diagram-AVS.png)
+
+![](images/TC-Block-Diagram-Z.png)
 
 5. Save all
+
 6. Increment version number and build the Application under "Build Specifications" in the Project Explorer
+
+![](images/TC-Build-Application-Version.gif)
+
+![](images/TC-Build-Application-Build.gif)
+
 7. Increment version number and build the Installer under "Build Specifications" in the Project Explorer
 
-![](images/FP-Project-Explorer-2.png)
+![](images/TC-Build-Installer-Version.gif)
+
+![](images/TC-Build-Installer-Build.gif)
 
 8. Run "FP Post Build.vi" with version numbers matching the builds above
+
+![](images/TC-Post-Build.gif)
 
