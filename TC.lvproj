@@ -189,7 +189,7 @@
 				<Property Name="Bld_version.build" Type="Int">7</Property>
 				<Property Name="Bld_version.major" Type="Int">4</Property>
 				<Property Name="Bld_version.minor" Type="Int">59</Property>
-				<Property Name="Bld_version.patch" Type="Int">3</Property>
+				<Property Name="Bld_version.patch" Type="Int">4</Property>
 				<Property Name="Destination[0].destName" Type="Str">TC.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/Application/TC Application.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -203,6 +203,11 @@
 				<Property Name="Destination[3].path" Type="Path">../builds/Application/Calibrations</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/src/1. Sources/TC.ico</Property>
+				<Property Name="Exe_Vardep[0].LibDeploy" Type="Bool">true</Property>
+				<Property Name="Exe_Vardep[0].LibItemID" Type="Ref">/My Computer/src/1. Sources/Lib/Lib.llb/DR TempControl.lvlib</Property>
+				<Property Name="Exe_VardepDeployAtStartup" Type="Bool">true</Property>
+				<Property Name="Exe_VardepLibItemCount" Type="Int">1</Property>
+				<Property Name="Exe_VardepUndeployOnExit" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[0].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[0].itemID" Type="Str">{BA467133-1F73-4309-B7A3-A3B4135F4ACC}</Property>
@@ -291,7 +296,7 @@
 				<Property Name="INST_buildSpecName" Type="Str">TC Installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{4F9652CA-15FC-4720-AF9D-CF67C2FF709C}</Property>
 				<Property Name="INST_productName" Type="Str">TC</Property>
-				<Property Name="INST_productVersion" Type="Str">4.59.3</Property>
+				<Property Name="INST_productVersion" Type="Str">4.59.4</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">13008051</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Leiden Cryogenics</Property>
