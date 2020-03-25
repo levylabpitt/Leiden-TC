@@ -214,7 +214,7 @@
 				<Property Name="Exe_VardepUndeployOnExit" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[0].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{C8D2DBB7-197D-42C6-8473-6488499A880B}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{4C4DA42F-1644-41D8-A98C-83746ABC7F55}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/src/1. Sources/TC.vi</Property>
@@ -232,62 +232,6 @@
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2020 Leiden Cryogenics, LevyLab</Property>
 				<Property Name="TgtF_productName" Type="Str">TC Application</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{ADAD6F79-ADCC-42F0-9325-9AFB678E107D}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">TC.exe</Property>
-			</Item>
-			<Item Name="TC Application - version test" Type="EXE">
-				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{80A66CB3-F707-4AFF-987B-4C36459EC4C5}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{0BCF6D0F-2F7C-4C16-96AE-4D5DD8B5F8F7}</Property>
-				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{F35030E0-2425-4219-9F12-F89DEFB23BB0}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">TC Application - version test</Property>
-				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/Application-test</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{8B4065D2-7F04-43D8-81BA-4636DC78EDEF}</Property>
-				<Property Name="Bld_version.build" Type="Int">7</Property>
-				<Property Name="Bld_version.major" Type="Int">4</Property>
-				<Property Name="Bld_version.minor" Type="Int">59</Property>
-				<Property Name="Bld_version.patch" Type="Int">8</Property>
-				<Property Name="Destination[0].destName" Type="Str">TC.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/Application-test/TC Application - version test.exe</Property>
-				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/Application-test/data</Property>
-				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
-				<Property Name="Destination[2].destName" Type="Str">Lib</Property>
-				<Property Name="Destination[2].path" Type="Path">../builds/Application-test/lib/Lib.llb</Property>
-				<Property Name="Destination[2].path.type" Type="Str">relativeToProject</Property>
-				<Property Name="Destination[2].type" Type="Str">LLB</Property>
-				<Property Name="Destination[3].destName" Type="Str">Calibrations</Property>
-				<Property Name="Destination[3].path" Type="Path">../builds/Application-test/Calibrations</Property>
-				<Property Name="Destination[3].path.type" Type="Str">relativeToProject</Property>
-				<Property Name="DestinationCount" Type="Int">4</Property>
-				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/src/1. Sources/TC.ico</Property>
-				<Property Name="Exe_VardepUndeployOnExit" Type="Bool">true</Property>
-				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[0].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{C8D2DBB7-197D-42C6-8473-6488499A880B}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/src/1. Sources/TC.vi</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref"></Property>
-				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[2].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">3</Property>
-				<Property Name="TgtF_companyName" Type="Str">Leiden Cryogenics</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">TC Application</Property>
-				<Property Name="TgtF_internalName" Type="Str">TC Application</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2020 Leiden Cryogenics, LevyLab</Property>
-				<Property Name="TgtF_productName" Type="Str">TC Application</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{E070D1D1-FAB6-4110-A602-7A2579A9D9FE}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">TC.exe</Property>
 			</Item>
 			<Item Name="TC Installer" Type="Installer">
@@ -361,7 +305,7 @@
 				<Property Name="INST_buildSpecName" Type="Str">TC Installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{4F9652CA-15FC-4720-AF9D-CF67C2FF709C}</Property>
 				<Property Name="INST_productName" Type="Str">TC</Property>
-				<Property Name="INST_productVersion" Type="Str">4.59.8</Property>
+				<Property Name="INST_productVersion" Type="Str">4.59.9</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">13008051</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Leiden Cryogenics</Property>
