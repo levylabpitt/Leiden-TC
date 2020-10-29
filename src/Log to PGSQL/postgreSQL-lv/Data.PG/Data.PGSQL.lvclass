@@ -95,24 +95,6 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1350836752</Property>
 		</Item>
-		<Item Name="Get Path GUI.vi" Type="VI" URL="../API/Get Path GUI.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"A!!!!!A!%!!!!6!$Q!!Q!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!$!!"Y!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1!"!!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">1073742080</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
-		</Item>
-		<Item Name="Get Paths Array GUI.vi" Type="VI" URL="../API/Get Paths Array GUI.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#?!!!!"1!%!!!!%%!Q`````Q:4&gt;(*J&lt;G=!!"R!1!!"`````Q!"$F2Z='6T)#BT&gt;(*J&lt;G=J!!!31%!!!@````]!!12%982B!!"5!0!!$!!!!!!!!!!!!!!!!!!!!!!!!!!#!!-!!!-!!(A!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1I!!!%+!!!!!!!!!!!"!!1!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">1074004224</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
-		</Item>
 		<Item Name="Get Users.vi" Type="VI" URL="../API/Get Users.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;%!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"B!-0````]/2W6U/E&gt;F&gt;#"4&gt;(*J&lt;G=!!"*!1!!"`````Q!&amp;"66T:8*T!#J!=!!?!!!5%E2B&gt;'%O5%&gt;455QO&lt;(:D&lt;'&amp;T=Q!!#U2B&gt;'%O5%=A&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!*E"Q!"Y!!"132'&amp;U93Z12V.24#ZM&gt;G.M98.T!!!(2'&amp;U93Z12Q"B!0!!$!!$!!1!"A!(!!1!"!!%!!1!#!!%!!1!#1-!!(A!!!U)!!!!!!!!#1!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!#A!!$1!!!!Q!!!!!!!!!!!!!!1!+!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -267,7 +249,7 @@
 			<Property Name="NI.ClassItem.State" Type="Int">1107821056</Property>
 		</Item>
 		<Item Name="Parse Variant.vi" Type="VI" URL="../subVIs/Parse Variant.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!.'!!!!%!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81#$5!6!#Y-37ZW97RJ:#"5?8"F"&amp;:P;71#34A$34%W!UET-A.*.D1#64A$64%W!V5T-A.6.D1-5WFO:WRF)%:M&lt;W&amp;U$%2P&gt;7*M:3"'&lt;'^B&gt;!Z&amp;?(2F&lt;G2F:#"'&lt;'^B&gt;!Z4;7ZH&lt;'5A1W^N='RF?!Z%&lt;X6C&lt;'5A1W^N='RF?""&amp;?(2F&lt;G2F:#"$&lt;WVQ&lt;'6Y"U6O&gt;7UA64A)27ZV&lt;3"6-49)27ZV&lt;3"6-T))27ZV&lt;3"6.D175WFO:WRF)%:M&lt;W&amp;U)&amp;&gt;J&gt;'AA67ZJ&gt;":%&lt;X6C&lt;'5A2GRP981A6WFU;#"6&lt;GFU'%6Y&gt;'6O:'6E)%:M&lt;W&amp;U)&amp;&gt;J&gt;'AA67ZJ&gt;"B4;7ZH&lt;'5A1W^N='RF?#"X;82I)&amp;6O;8192'^V9GRF)%.P&lt;8"M:8AA&gt;WFU;#"6&lt;GFU'E6Y&gt;'6O:'6E)%.P&lt;8"M:8AA&gt;WFU;#"6&lt;GFU"U*P&lt;WRF97Y'5X2S;7ZH"&amp;"B&gt;'A(5'FD&gt;(6S:1.597=&amp;18*S98E(1WRV=X2F=A&gt;798*J97ZU#ER7)&amp;:B=GFB&lt;H1)6W&amp;W:7:P=GU*6'FN:8.U97VQ%%2J:WFU97QA6W&amp;W:7:P=GU-2'FH;82B&lt;#"%982B#U6Y=(*F=X.%982B"F*F:GZV&lt;1V&amp;?(2F=GZB&lt;#"%982B!F:*"V"P&lt;(EA6EE74'&amp;C6EF&amp;6S"$&lt;'&amp;T=S"*&lt;H.U97ZD:1N';8BF:#"1&lt;WFO&gt;!!%&gt;(FQ:1!!%E"!!!(`````!!1&amp;6(FQ:8-!#!!Q`````Q!51%!!!@````]!"A&gt;4&gt;(*J&lt;G&gt;T!!J!5Q2U?8"F!!!71%!!!@````]!#!B798*J97ZU=Q!!%%!Q`````Q:4&gt;(*J&lt;G=!!"R!1!!"`````Q!+$V2Z='6T)#BT&gt;(*J&lt;G&gt;T+1!%!!!!&amp;E"1!!-!!!!"!!)):8*S&lt;X)A;7Y!!!R!5Q&gt;W98*J97ZU!&amp;1!]!!-!!-!"1!(!!E!#Q!-!!Q!$!!.!!Q!$A!-!Q!!?!!!#1!!!!E!!!!*!!!!#1!!!!E!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!I!!!!!!!!!!!%!$Q!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!0C!!!!%!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81#K1$RQ::MLA!!!!%F6(FQ:3"%:8.D=GFQ&gt;'^S)%6O&gt;7VF=G&amp;U;7^O8V^P:X2L,G.U&lt;!*\1"5!=19]4H6M&lt;$Y#34A$34%W!UET-A.*.D1#64A$64%W!V5T-A.6.D1$5U&gt;-!U2#4!.&amp;7&amp;1$1V.(!U.%1A.$7&amp;1%-(AQ2A1Q?$%Q"$"Y-4%%-(AR-A1Q?$%T"$"Y-41(27ZV&lt;3"6/!B&amp;&lt;H6N)&amp;5R.AB&amp;&lt;H6N)&amp;5T-AB&amp;&lt;H6N)&amp;5W.!:42UQA5&amp;%'2%*-)&amp;"2"E696#"151:$5U=A5&amp;%'1U2#)&amp;"2"E.96#"1511Q?$&amp;'"$"Y-D!(1G^P&lt;'6B&lt;A1Q?$)S"$"Y-D-%-(AS.!1Q?$)V"$"Y-D9%-(AS.Q1Q?$)Y"$"Y-DE%-(AS111Q?$*#"$"Y-E-%-(AS2!1Q?$*&amp;"$"Y-E9'5X2S;7ZH"$"Y-T%%5'&amp;U;!21;7.U"$"Y-T1%-(AT.11Q?$-W!U2"511Q?$-Y"$"Y-TE%-(AT111Q?$.#"$"Y-U-%-(AT2!1Q?$.&amp;"$"Y-U9&amp;18*S98E%-(AU-11Q?$1S"$"Y.$-%-(AU.!1Q?$1V"$"Y.$9%-(AU.Q1Q?$1Y"$"Y.$E%-(AU111Q?$2#"$"Y.%-%-(AU2!1Q?$2&amp;"$"Y.%9(1WRV=X2F=A1Q?$5R"$"Y.4)(6G&amp;S;7&amp;O&gt;!B898:F:G^S&lt;11Q?$5V"$"Y.49%-(AV.Q1Q?$5Y"$"Y.4E%-(AV111Q?$6#"$"Y.5-%-(AV2!1Q?$6&amp;"$"Y.59%-(AW-!1Q?$9R"$"Y.D)%-(AW-Q1Q?$9U"$"Y.D5%-(AW.A1Q?$9X"$"Y.DA%-(AW/11Q?$:""$"Y.E)%-(AW1Q1Q?$:%"$"Y.E5%-(AW2A:3:7:O&gt;7U!!"N5?8"F)%2F=W.S;8"U&lt;X)A27ZV&lt;76S982J&lt;WY!%E"!!!(`````!!1&amp;6(FQ:8-!#!!Q`````Q!51%!!!@````]!"A&gt;4&gt;(*J&lt;G&gt;T!!J!5Q2U?8"F!!!71%!!!@````]!#!B798*J97ZU=Q!!%%!Q`````Q:4&gt;(*J&lt;G=!!"R!1!!"`````Q!+$V2Z='6T)#BT&gt;(*J&lt;G&gt;T+1!%!!!!&amp;E"1!!-!!!!"!!)):8*S&lt;X)A;7Y!!!R!5Q&gt;W98*J97ZU!&amp;1!]!!-!!-!"1!(!!E!#Q!-!!Q!$!!.!!Q!$A!-!Q!!?!!!#1!!!!E!!!!*!!!!#1!!!!E!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!I!!!!!!!!!!!%!$Q!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">1090519168</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
